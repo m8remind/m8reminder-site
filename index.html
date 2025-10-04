@@ -7,6 +7,28 @@
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<style>
+		.center-buttons {
+			text-align: center;
+			width: 100%;
+		}
+		.center-buttons .actions {
+			display: inline-block;
+			text-align: center;
+		}
+		.center-buttons .actions li {
+			display: inline-block;
+			float: none;
+		}
+		.features-row-centered {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		.box.special .row {
+			justify-content: center;
+		}
+	</style>
 </head>
 <body class="landing">
 	<div id="page-wrapper">
@@ -27,10 +49,12 @@
 			<section id="banner">
 				<h2>M8 Remind</h2>
 				<p>Your Reminder Mate<br />Stop No-Shows. Get Paid Faster.</p>
-				<ul class="actions">
-					<li><a href="mailto:saad@m8reminder.au?subject=M8%20Remind%20Demo%20Request" class="button special">Book a Free Demo</a></li>
-					<li><a href="#how-it-works" class="button">Learn More</a></li>
-				</ul>
+				<div class="center-buttons">
+					<ul class="actions">
+						<li><a href="mailto:saad@m8reminder.au?subject=M8%20Remind%20Demo%20Request" class="button special">Book a Free Demo</a></li>
+						<li><a href="#how-it-works" class="button">Learn More</a></li>
+					</ul>
+				</div>
 			</section>
 
 		<!-- Main -->
@@ -38,7 +62,7 @@
 
 				<!-- Problem Section -->
 				<section class="box special">
-					<header class="major">
+					<header class="major" style="text-align: center;">
 						<h2>Are No-Shows Costing Your Business?</h2>
 						<p>Every empty appointment slot is money lost and time wasted.<br />
 						Stop chasing customers manually and let M8 Remind handle it automatically.</p>
@@ -48,7 +72,7 @@
 
 				<!-- Benefits Section -->
 				<section class="box special features">
-					<div class="features-row">
+					<div class="features-row features-row-centered">
 						<section>
 							<span class="icon solid major fa-calendar-check accent2"></span>
 							<h3>Eliminate No-Shows</h3>
@@ -60,7 +84,7 @@
 							<p>Include secure payment links in your messages to speed up invoicing and improve cash flow.</p>
 						</section>
 					</div>
-					<div class="features-row">
+					<div class="features-row features-row-centered">
 						<section>
 							<span class="icon solid major fa-clock accent4"></span>
 							<h3>Save 5-10 Hours/Week</h3>
@@ -76,14 +100,14 @@
 
 				<!-- How It Works -->
 				<section id="how-it-works" class="box special">
-					<header class="major">
+					<header class="major" style="text-align: center;">
 						<h2>How It Works</h2>
 						<p>Simple setup, massive results</p>
 					</header>
-					<div class="row">
+					<div class="row" style="justify-content: center;">
 						<div class="6u 12u(narrower)">
 
-							<section class="box special">
+							<section class="box special" style="text-align: center;">
 								<span class="icon solid major fa-calendar-alt"></span>
 								<h3>1. Share Your Calendar</h3>
 								<p>Give us read-only access to your appointment calendar. No new software to learn.</p>
@@ -92,7 +116,7 @@
 						</div>
 						<div class="6u 12u(narrower)">
 
-							<section class="box special">
+							<section class="box special" style="text-align: center;">
 								<span class="icon solid major fa-cogs"></span>
 								<h3>2. We Set Everything Up</h3>
 								<p>We configure automated SMS reminders tailored specifically to your business.</p>
@@ -100,10 +124,10 @@
 
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" style="justify-content: center;">
 						<div class="6u 12u(narrower)">
 
-							<section class="box special">
+							<section class="box special" style="text-align: center;">
 								<span class="icon solid major fa-sms"></span>
 								<h3>3. Automated Reminders</h3>
 								<p>We send 48-hour and 2-hour reminders automatically. You focus on your customers.</p>
@@ -112,7 +136,7 @@
 						</div>
 						<div class="6u 12u(narrower)">
 
-							<section class="box special">
+							<section class="box special" style="text-align: center;">
 								<span class="icon solid major fa-chart-line"></span>
 								<h3>4. Watch Results Grow</h3>
 								<p>See your no-shows drop and your productivity soar from day one.</p>
@@ -124,26 +148,28 @@
 
 				<!-- CTA Section -->
 				<section id="cta" class="box special">
-					<header class="major">
+					<header class="major" style="text-align: center;">
 						<h2>Ready to Stop Losing Money?</h2>
 						<p>Join other Australian businesses saving time and increasing revenue.<br />
 						<strong>Founding Customer Offer:</strong> First month 50% off + free setup.</p>
 					</header>
-					<ul class="actions">
-						<li><a href="mailto:saad@m8reminder.au?subject=M8%20Remind%20Demo%20Request&body=Hi%20Saad,%20I'd%20like%20to%20learn%20more%20about%20M8%20Remind!" class="button special">Book Your Free Demo</a></li>
-						<li><a href="mailto:saad@m8reminder.au?subject=Question%20About%20M8%20Remind" class="button">Ask a Question</a></li>
-					</ul>
-					<p><small>No commitment required • 100% Free Demo • Australian Owned & Operated</small></p>
+					<div class="center-buttons">
+						<ul class="actions">
+							<li><a href="mailto:saad@m8reminder.au?subject=M8%20Remind%20Demo%20Request&body=Hi%20Saad,%20I'd%20like%20to%20learn%20more%20about%20M8%20Remind!" class="button special">Book Your Free Demo</a></li>
+							<li><a href="mailto:saad@m8reminder.au?subject=Question%20About%20M8%20Remind" class="button">Ask a Question</a></li>
+						</ul>
+					</div>
+					<p style="text-align: center;"><small>No commitment required • 100% Free Demo • Australian Owned & Operated</small></p>
 				</section>
 
 			</section>
 
 		<!-- Footer -->
 			<footer id="footer">
-				<ul class="icons">
+				<ul class="icons" style="text-align: center;">
 					<li><a href="mailto:saad@m8reminder.au" class="icon fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
-				<ul class="copyright">
+				<ul class="copyright" style="text-align: center;">
 					<li>&copy; M8 Remind. All rights reserved.</li>
 					<li>Your Reminder Mate • Australian Owned</li>
 					<li>Email: <a href="mailto:saad@m8reminder.au">saad@m8reminder.au</a></li>
